@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom styles */
+body{
+    font-family: 'DM Serif Display', serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* header */
+.heading{
+    background-color: rgb(235, 229, 229);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading h1{
+    font-size: 45px;
+    margin: 18px;
+    
+}
+.nav{
+    margin: 18px;
+    
+}
+.nav a{
+    padding: 14px  24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+ .nav button{
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+}
+/* section */
+.box{
+    background-color: rgb(5, 5, 54);
+     height: 450px;
+    border: 1px solid blue;
+    
+}
+.flex{
+    display: flex;
+}
+.text{
+    width: 30%;
+    margin: 32px;
+}
+.text h2{
+    font-size: 48px;
+    color: white;
+    margin-bottom: 12px;
+}
+.text p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+}
+.btn{
+    background-color:rgb(5, 5, 54) ;
+    color: white;
+    margin-top: 15px;
+    font-size: 24px;
+    border: 1px solid white;
+}
+.img{
+    width: 50%;
+    margin-left: 96px;
+    margin-top: 32px;
+}
+.img img{
+    height: 500px;
+}
+/* section2 */
+.image{
+    width: 30%;
+    margin: 180px 0;
+}
+.image img{
+    width: 500px;
+}
+.text1{
+    width: 60%;
+    margin-top: 300px;
+    margin-left: 180px;
+}
+.text1 h2{
+    font-size: 55px;
+    line-height: 1.5;
+}
+.text1 p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+.btn1{
+    background-color:white ;
+    margin-top: 25px;
+    font-size: 24px;
+    border: 1px solid black;
+}
+/* different session design */
+.flex1{
+    display: flex;
+    margin-right: 25px;
+    
+}
+.h2-heading{
+    font-size: 64px;
+    margin-bottom: 32px;
+    color: black;
+}
+.bi-gear{
+    background-color: rgb(117, 117, 207);
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+h3{
+    font-size: 24px;
+    line-height: 1.5;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+/* last session */
+.box2{
+    background-color: rgb(5, 5, 54);
+     height: 200px;
+    border: 1px solid blue;
+    margin-top: 32px;
+}
+.last-head{
+    font-size: 40px;
+    color: white;
+    margin: 55px;
+    line-height: 1.5;
+}
+.button{
+    margin-left: 500px;
+    width: 150px;
+    height: 50px;
+    margin-top: 64px;
+    background-color:rgb(5, 5, 54); 
+    border: 2px solid white;
+    color:white ;
+    text-transform: uppercase;
+}
+/* Downnavbar */
+.box3{
+    margin-top: 45px;
+    border-bottom: 1px solid black;
+}
+.box3 h2{
+    font-size: 44px;
+}
+.navbar{
+    margin-left: 900px;
+    margin-top: 18px;
+}
+.navbar a{
+    margin-right: 18px;
+    width: 200px;
+    height: 180px;
+    background-color: gray;
+    border: 1px solid gray;
+    color: black;
+    
+}
+.nav1{
+    text-align: center;
+}
+/* footer */
+.footer{
+    background-color: rgb(5, 5, 54);
+    height: 75px;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    padding-top: 24px;
+    font-size: 25px;
+}
+
+
